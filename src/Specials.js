@@ -16,7 +16,7 @@ export default function Special() {
                 <div className='dish'>
                   <h3><b>Greek Salad <span>12,99 €</span></b></h3>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                  <a href='./Order'><h3><b>Order a delivery</b></h3></a>
+                  <a href='./Order' aria-label='On Click'><h3><b>Order a delivery</b></h3></a>
                 </div>
               </div>
               <div className='card-2'>
@@ -24,7 +24,7 @@ export default function Special() {
                 <div className='dish'>
                   <h3><b>Bruschetta <span>12,99 €</span></b></h3>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                  <a href='./Order'><h3><b>Order a delivery</b></h3></a>
+                  <a href='./Order' aria-label='On Click'><h3><b>Order a delivery</b></h3></a>
                 </div>
               </div>
               <div className='card-3'>
@@ -32,7 +32,7 @@ export default function Special() {
                 <div className='dish'>
                   <h3><b>Lemon Dessert <span>7,99 €</span></b></h3>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                  <a href='./Order'><h3><b>Order a delivery</b></h3></a>
+                  <a href='./Order' aria-label='On Click'><h3><b>Order a delivery</b></h3></a>
                 </div>
               </div>
             </div>
