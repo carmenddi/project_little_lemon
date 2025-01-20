@@ -1,10 +1,5 @@
+import React from 'react';
 import Logo from './images/Logo.jpg';
-import { Routes, Route, Link } from 'react-router-dom';
-import Homepage from './Homepage.js';
-import About from './About.js';
-import Reservation from './Reservation.js';
-import Login from './Login.js';
-import Order from './Order.js';
 
 export default function Footer() {
     return (
@@ -12,17 +7,18 @@ export default function Footer() {
       <nav className="footer-nav">
         <img className='Logo' src={Logo} alt="Little Lemon Logo" />
         <div className='Doormat'>
-          <b>Doormat Navigation</b>
-          <Link to='/home' className='nav-item'>HOME</Link>
-          <Link to='/about' className='nav-item'>ABOUT</Link>
-          <Link to='/reservation' className='nav-item'>RESERVATION</Link>
-          <Link to='/order' className='nav-item'>ORDER ONLINE</Link>
-          <Link to='/login' className='nav-item'>LOGIN</Link>
+          <ul><b>Doormat Navigation</b>
+            <a href='./' className='nav-item'>HOME</a>
+            <a href='./About' className='nav-item'>ABOUT</a>
+            <a href='./Reservation' className='nav-item'>RESERVATION</a>
+            <a href='./Order' className='nav-item'>ORDER ONLINE</a>
+            <a href='./Login' className='nav-item'>LOGIN</a>
+          </ul>
         </div>
-        <ul><b>Contacts</b>
-          <li>Adress</li>
-          <li>Phone Number</li>
-          <li>Email</li>
+        <ul className='contacts'><b>Contacts</b>
+          <li>First Street, 2 <br></br>1234 Chicago</li>
+          <li>+123456789</li>
+          <li>ouremail@littlelemon.com</li>
         </ul>
         <ul><b>Social Media</b>
           <li><a href='#/instagram'>Instagram</a></li>
@@ -30,12 +26,6 @@ export default function Footer() {
           <li><a href='#/TikTok'>Tik Tok</a></li>
         </ul>
       </nav>
-      <Routes>
-        <Route path='/' element={<Homepage />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/reservation' element={<Reservation />} />
-        <Route path='/order' element={<Order />} />          <Route path='/login' element={<Login />} />
-      </Routes>
     </>
     );
   }
