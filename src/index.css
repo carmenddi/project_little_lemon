@@ -1,8 +1,7 @@
 *{
   margin:0 auto;
   padding:0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Karla', 'Helvetica Neue',
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Karla', 'Helvetica Neue', sans-serif;
   text-decoration: none;
 }
 
@@ -130,7 +129,7 @@ button:hover {
 }
 
 .description {
-  width: 40vw;
+  width: 35vw;
 }
 
 h1 {
@@ -160,13 +159,16 @@ button {
 
 /*Grids*/
 
-.specials, .banner, .about, .bookingPage, .test {
+.specials, .hero, .about, .bookingPage, .test {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
   justify-items: center;
 }
 
+.hero {
+  width: 70vw;
+}
 /*Specials and Testimonials*/
 
 .specials button {
@@ -181,7 +183,7 @@ button {
   width: 18rem;
   display: grid;
   grid-auto-flow: column;
-  gap: 9rem;
+  gap: 5.5rem;
   align-items: center;
   justify-items: center;
   justify-content: center;
@@ -378,7 +380,7 @@ option {
     margin: 1rem 0;
   }
 
-  .cards, .specials, .cards-testimonial, .banner, .bookingPage, .about {
+  .cards, .specials, .cards-testimonial, .hero, .bookingPage, .about {
     display: block;
   }
   .reservation {
@@ -401,7 +403,7 @@ option {
   }
 
   .description {
-    width: 90vw;
+    width: 70vw;
   }
 
   .reservation img {
