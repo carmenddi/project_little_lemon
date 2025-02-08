@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/project_little_lemon/static/css/main.ca5659c4.css",
+    "main.js": "/project_little_lemon/static/js/main.e1edf5e7.js",
+    "static/js/453.fad00232.chunk.js": "/project_little_lemon/static/js/453.fad00232.chunk.js",
+    "static/media/MarioAdrian.jpg": "/project_little_lemon/static/media/MarioAdrian.7f44c6d6e341a27d14b3.jpg",
+    "static/media/greekSalad.jpg": "/project_little_lemon/static/media/greekSalad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/project_little_lemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/test2.jpeg": "/project_little_lemon/static/media/test2.faf4b042330b7bfefc9a.jpeg",
+    "static/media/test3.jpeg": "/project_little_lemon/static/media/test3.68e4c17f7c932da63f9c.jpeg",
+    "static/media/test1.jpeg": "/project_little_lemon/static/media/test1.66ed81c5c08f62d18d55.jpeg",
+    "static/media/test4.jpeg": "/project_little_lemon/static/media/test4.7ea08f95908e8a07e1ec.jpeg",
+    "static/media/restaurant.jpg": "/project_little_lemon/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/bruchetta.png": "/project_little_lemon/static/media/bruchetta.ec260fe26a159e05c0c0.png",
+    "static/media/under_maintenance.png": "/project_little_lemon/static/media/under_maintenance.c862dd527d9138e440e6.png",
+    "static/media/logo2.png": "/project_little_lemon/static/media/logo2.ea453d1c2a40cb49376d.png",
+    "static/media/Logo.jpg": "/project_little_lemon/static/media/Logo.be25b1cdaab551f2c484.jpg",
+    "index.html": "/project_little_lemon/index.html",
+    "main.ca5659c4.css.map": "/project_little_lemon/static/css/main.ca5659c4.css.map",
+    "main.e1edf5e7.js.map": "/project_little_lemon/static/js/main.e1edf5e7.js.map",
+    "453.fad00232.chunk.js.map": "/project_little_lemon/static/js/453.fad00232.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca5659c4.css",
+    "static/js/main.e1edf5e7.js"
+  ]
+}
