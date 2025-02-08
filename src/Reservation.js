@@ -25,7 +25,6 @@ export default function Reservation() {
 
   useEffect(() => {
     const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
-    const timesForToday = fetchAPI(today); // Fetch times for today's date
     dispatch({ type: 'UPDATE_TIMES', date: today }); // Dispatch action with today's date
   }, []);
 
