@@ -2,6 +2,7 @@
   "name": "project_little_lemon",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://carmenddi.github.io/project_little_lemon",
   "dependencies": {
     "@testing-library/react": "^16.2.0",
     "cra-template": "1.2.0",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,4 +44,5 @@
     "@testing-library/jest-dom": "^6.6.3",
     "html-webpack-plugin": "^5.6.3"
   }
+  
 }
