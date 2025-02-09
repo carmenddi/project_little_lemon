@@ -260,6 +260,7 @@ span {
 .aboutUs p {
   width: 32rem;
   color:#edefee;
+  line-height: 1.5rem;
 }
 
 /*Booking Form*/
