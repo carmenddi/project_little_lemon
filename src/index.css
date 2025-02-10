@@ -137,8 +137,13 @@ h1 {
   font-family: 'Markazi Text';
 }
 
-.description h2, .description h3 {
+.description h2, .description p {
   color: #edefee;
+}
+
+.description p {
+  font-size: 1.5rem;
+  line-height: 36px;
 }
 
 h2 {
@@ -405,6 +410,11 @@ option {
 
   .description {
     width: 70vw;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+    text-align: center;
   }
 
   .reservation img {
