@@ -162,6 +162,7 @@ button {
   color: #495e57;
 }
 
+
 /*Grids*/
 
 .specials, .hero, .about, .bookingPage, .test {
@@ -368,6 +369,13 @@ option {
 
   html {
     font-size: 2.7vw;
+  }
+
+  .b-img {
+    display: block;
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
   }
 
   .nav-links {
