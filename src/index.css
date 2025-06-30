@@ -371,12 +371,19 @@ option {
     font-size: 2.7vw;
   }
 
-  .b-img {
-    display: block;
-    width: 80vw;
-    height: auto;
-    margin: 0 auto;
-  }
+  .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.b-img {
+  display: block;
+  width: 80vw;
+  height: auto;
+}
+
 
   .nav-links {
     display: none;
@@ -407,11 +414,21 @@ option {
     margin: 1rem 0;
   }
 
+  .cards-testimonial img {
+    width: 40vw;
+    height: auto;
+  }
+
+  .test1, .test2, .test3, .test4 {
+    width: 70vw;
+    height: fit-content;
+  }
+
   h1, h2, .banner h3 {
     text-align: center;
   }
 
-  .description button {
+  .description button, .specials button {
     display: block;
     margin-bottom: 2.5rem;
   }
