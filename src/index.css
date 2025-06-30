@@ -455,9 +455,17 @@ option {
     text-align: left;
   }
 
-  .about img {
-    margin-top: 1.5rem;
-  }
+  .about {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Questo centra orizzontalmente tutto */
+}
+.about img {
+  width: 80vw;
+  margin: 2rem 0;
+}
 
   .sidebar {
     width: 100vw;
