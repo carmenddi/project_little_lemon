@@ -11,7 +11,7 @@ export default function Special() {
               <button><a href='./Order'>online Menu</a></button>
             </div>
             <div className='cards'>
-              <div className='card-1'>
+              <div className='card'>
                 <img src={GreekSalad} alt='Greek Salad'/>
                 <div className='dish'>
                   <h3><b>Greek Salad <span>12,99 €</span></b></h3>
@@ -19,7 +19,7 @@ export default function Special() {
                   <a href='./Order' aria-label='On Click'><h3><b>Order a delivery</b></h3></a>
                 </div>
               </div>
-              <div className='card-2'>
+              <div className='card'>
                 <img src={Bruschetta} alt='Bruschetta'/>
                 <div className='dish'>
                   <h3><b>Bruschetta <span>12,99 €</span></b></h3>
@@ -27,7 +27,7 @@ export default function Special() {
                   <a href='./Order' aria-label='On Click'><h3><b>Order a delivery</b></h3></a>
                 </div>
               </div>
-              <div className='card-3'>
+              <div className='card'>
                 <img src={LemonDessert} alt='Lemon Dessert'/>
                 <div className='dish'>
                   <h3><b>Lemon Dessert <span>7,99 €</span></b></h3>

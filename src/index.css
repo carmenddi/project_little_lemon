@@ -37,10 +37,6 @@ a:hover {
   color:#333333;
 }
 
-button:hover {
-  background-color: #fbdabb;
-}
-
 .Logo {
   width: 11rem;
   height: 3rem;
@@ -124,42 +120,58 @@ button:hover {
   border-radius: 8px;
 }
 
-.title {
-  color: #f4ce14;
-}
-
-.description {
-  width: 35vw;
-}
-
-h1 {
-  font-size: 4.5rem;
-  font-family: 'Markazi Text';
-}
-
 .description h2, .description p {
   color: #edefee;
 }
 
+.title {
+  font-size: 1.1rem;
+  letter-spacing: 0.12rem;
+  color: #f4ce14;
+  font-weight: 700;
+}
+
+.banner h1 {
+  font-size: 3.8rem;
+  line-height: 1.1;
+  margin: 0.5rem 0;
+  font-family: 'Markazi Text';
+}
+
 .description p {
-  font-size: 1.5rem;
-  line-height: 36px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  max-width: 32rem;
+  margin-bottom: 1.5em;
 }
 
 h2 {
   font-size: 3rem;
+  margin-bottom: 0.5em;
 }
 
 button {
-  height: 2.4rem;
-  width: 13rem;
-  margin-top: 2rem;
-  background-color: #f4c614;
+  height: auto;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(135deg, #f4c614, #eabc0c);
   border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 1.3rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 1.15rem;
   color: #495e57;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.22);
+  background: linear-gradient(135deg, #ffd84d, #f4c614);
+}
+
+button a {
+  color: inherit;
 }
 
 
@@ -202,13 +214,51 @@ button {
 }
 
 .dish {
-  color: #495e57;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.2rem;
 }
 
-.card-1, .card-2, .card-3 {
-  background-color: #edefee;
+.dish h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.4rem;
+  display: flex;
+  justify-content: space-between;
 }
+
+.dish span {
+  color: #d62828;
+  font-weight: 700;
+}
+
+.dish p {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-bottom: 0.8rem;
+}
+
+.dish a h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #495e57;
+  margin-top: 0.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.dish a:hover h3 {
+  opacity: 0.7;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 42px rgba(0,0,0,0.18);
+}
+
 
 span {
   color:red;
@@ -219,7 +269,8 @@ span {
 }
 
 .testimonials {
-  margin: 4rem 0;
+  width: 100%;
+  margin: 4rem auto;
 }
 
 .testimonials h2 {
@@ -229,7 +280,7 @@ span {
 .cards-testimonial {
   display: grid;
   grid-auto-flow: column;
-  gap: 7rem;
+  gap: 3rem;
   align-items: center;
   justify-items: center;
   justify-content: center;
@@ -242,12 +293,33 @@ span {
   border-radius: 8px;
 }
 
-.test1, .test2, .test3, .test4 {
-  width: 9rem;
-  height: 9rem;
+.test-1 {
+  width: 12rem;
   text-align: center;
-  background-color: #edefee;
+  background: #ffffff;
   padding: 1rem 1rem 2rem 1rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.test-1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 38px rgba(0,0,0,0.18);
+}
+
+.cards-testimonial img {
+  width: 3.8rem;
+  height: 3.8rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.6rem;
+}
+
+.testimonials p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0.4rem;
 }
 
 /* About us */
@@ -269,55 +341,82 @@ span {
   line-height: 1.5rem;
 }
 
-/*Booking Form*/
-.reservation img {
-  width: 65vh;
-  border-radius: 8px;
-}
-
-form h2 {
-  margin-bottom: 1rem;
-  font-size: 2.6rem;
-  color: #f4c614;
-}
-
-.bookingPage {
-  margin: 1rem 0;
+/* Background a tutta larghezza */
+.bookingWrapper {
   background-color: #495e57;
+  width: 100%;
+  padding: 2.5rem 0;
+}
+
+/* Contenuto centrato 80% */
+.bookingPage {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 form {
-  color:#edefee;
-  font-size: 1.3rem;
-  padding: 2rem;
+  color: #edefee;
+  font-size: 1rem;
   border-radius: 8px;
+  flex: 1;
+  text-align: left;
 }
 
 .field {
-  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem 0;
 }
 
-label {
-  margin-right: 0.5rem;
+.field label {
+  margin-bottom: 0.35rem;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  align-self: flex-start;
 }
 
-form button {
-  font-size: 1.1rem;
-}
-
-input, select {
+.field input,
+.field select {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
   background-color: inherit;
-  border-color:#edefee;
-  border-top: #edefee;
+  border-color: #edefee;
   border-width: 1.5px;
-}
-
-#time, #guests, #occasion, #date {
+  border-style: solid;
+  border-radius: 4px;
+  box-sizing: border-box;
   color: #edefee;
 }
 
+
 option {
-  color:#495e57;
+  color: #495e57;
+}
+
+form button {
+  font-size: 0.9em;
+  margin-top: 1em;
+  padding: 0.7em 1.4em !important;
+}
+
+.reservation {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  height: auto;
 }
 
 /*Confirmation Page*/
@@ -368,7 +467,8 @@ option {
 @media screen and (min-width: 0px) and (max-width: 1024px) {
 
   html {
-    font-size: 2.7vw;
+    overflow-x: hidden;
+    font-size: 1.3rem;
   }
 
   .hero {
@@ -378,12 +478,16 @@ option {
   width: 100%;
 }
 
+.card img {
+  width: 100%;
+  height: auto;
+}
+
 .b-img {
   display: block;
   width: 80vw;
   height: auto;
 }
-
 
   .nav-links {
     display: none;
@@ -410,17 +514,17 @@ option {
     align-items: center;
   }
 
-  .card-1, .card-2, .card-3, .test1, .test2, .test3 {
+  .card, .test-1 {
     margin: 1rem 0;
   }
 
   .cards-testimonial img {
-    width: 40vw;
+    width: 30vw;
     height: auto;
   }
 
-  .test1, .test2, .test3, .test4 {
-    width: 70vw;
+  .test-1 {
+    width: 60vw;
     height: fit-content;
   }
 
@@ -442,17 +546,25 @@ option {
     text-align: center;
   }
 
-  .reservation img {
-    width: 70%;
-    margin-bottom: 2rem;
+  .cards {
+    width: 80vw;
   }
 
-  form {
-    padding-left: 5.5rem;
+  .dish {
+    text-align: center;
+  }
+
+  .reservation img {
+    width: 100%;
+    margin: 2em auto;
   }
 
   form h2 {
     text-align: left;
+  }
+
+  .field input {
+    font-size: 0.8em;
   }
 
   .about {
@@ -460,11 +572,17 @@ option {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Questo centra orizzontalmente tutto */
+  align-items: center;
 }
+
 .about img {
+  width: 70vw;
+  height: auto;
+  margin-top: 2em;
+}
+
+.about p {
   width: 80vw;
-  margin: 2rem 0;
 }
 
   .sidebar {
